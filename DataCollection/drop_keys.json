@@ -1,0 +1,51 @@
+Drop
+---
+		Track - album - Artists - external_urls
+		Track - album - Artists - href
+		Track - album - Artists - uri
+		Track - album - external_urls
+		Track - album - href
+		Track - album - uri
+
+		Track - artists - external_urls
+		Track - artists - href
+		Track - artists - uri
+
+		Track - external_urls
+		Track - href
+		Track - is_local
+		Track - uri
+
+		Audio Features - uri
+		Audio Features - track_href
+		Audio Features - analysis_url
+
+		Album - artists - external_urls
+		Album - artists - href
+		Album - artists - uri
+
+		Album - external_urls
+		Album - href
+		Album - uri
+
+		Album - tracks - href
+Album - tracks - items - artists - external_urls
+Album - tracks - items - artists - href
+Album - tracks - items - artists - uri
+		Album - tracks - items - external_urls
+		Album - tracks - items - href
+		Album - tracks - items - uri
+
+Artist - external_urls
+Artist - href
+Artist - uri
+Artist - followers - href
+
+---
+Adjust
+---
+Track - id => _id
+Track - popularity => From int To array[]
+
+Album - id => _id
+Album - popularity => From int To array[]
